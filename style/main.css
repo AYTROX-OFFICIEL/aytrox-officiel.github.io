@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    display: none;
+}
+#preloader{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: #302d2d;
+    position: fixed;
+    z-index: 100;
+}
+#preloader>div{
+    height: 100px;
+    width: 100px;
+    border: 15px solid rgb(92, 91, 91);
+    border-top-color: #ffffff;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    animation: spin 0.8s infinite linear;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
