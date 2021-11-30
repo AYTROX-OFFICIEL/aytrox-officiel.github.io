@@ -1,3 +1,5 @@
+/* "main.css" By AYTROX */
+
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 *{
@@ -5,6 +7,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fjalla One', sans-serif;
+}
+body{
+    background: fixed linear-gradient(rgba(0, 0, 0, 0.685),rgba(0, 0, 0, 0.801)),url(../images/aytroxprivate-v4.png);
 }
 #preloader{
     height: 100vh;
@@ -39,7 +44,6 @@
 .content .container{
     width: 100%;
     height: 100vh;
-    background: #111;
 }
 svg{
     font-size: 150px;
@@ -80,7 +84,10 @@ svg{
 }
 .textsecond>p{
     color: #fff;
-    text-align: center;
-    font-size: 25px;
-    margin-top: -10%;
+    position: absolute;
+    margin: auto;
+    top: 80%;
+    left: 40%;
+    font-size: 30px;
+    width: 23%;
 }
